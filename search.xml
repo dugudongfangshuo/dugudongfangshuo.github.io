@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[web开发总结]]></title>
+    <url>%2Fweb%E5%BC%80%E5%8F%91%E6%80%BB%E7%BB%93.html</url>
+    <content type="text"><![CDATA[​ 在此总结了所接触的过的web知识，做到对web知识的清楚认识，至于具体知识要在实践中不断的学习和理解。在此说明，虽然世界上语言众多，框架丰富，但是应用开发重要的开发的思路，所以一旦确定一个项目，不必纠结使用什么框架和语言，先确认好思路，选择一个实际环境使用的框架或语言开发就可以了。具体的开发语言和框架要根据业务需求和语言或框架自身的特点进行选择。]]></content>
+      <tags>
+        <tag>web开发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Vue.js的安装、使用和打包——基于webstorm]]></title>
     <url>%2FVue.js%E7%9A%84%E5%AE%89%E8%A3%85%E3%80%81%E4%BD%BF%E7%94%A8%E5%92%8C%E6%89%93%E5%8C%85%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8Ewebstorm.html</url>
     <content type="text"><![CDATA[Vue.js的安装、使用和打包——基于webstorm1.首先安装node.js​ node.js 官网下载后一路默认安装即可 ​ node -v 通过node -v检查版本 2.其次安装vue.js​ vue.js ​ 1)通过npm install vue 安装最新稳定的vue 12# 最新稳定版$ npm install vue ​ 2)然后安装vue-cli 12# 全局安装 vue-cli$ npm install --global vue-cli 3使用webstorm进行项目构建 1)打开webstorm——&gt;file——&gt;new——&gt;project进入如下图操作： location：是工程创建的位置，自定义即可，其他的默认。然后点击Next后等待一会即可构建完成项目，过程中询问Yes,no前两个选yes，其他的选No 2)项目构建完成： 4使用webstorm进行项目运行配置1）点开配置点击红框处，选择edit configurations,进行如下配置即可 2）添加npm 3）配置npm:按照如图所示的配置即可： 5使用webstorm进行项目build打包配置同时如下配置build:——配置之后运行出现dist文件夹 dist文件夹]]></content>
